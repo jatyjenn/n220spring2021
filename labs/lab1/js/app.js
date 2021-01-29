@@ -1,22 +1,26 @@
 function setup() {
+  var orange = "#ff6f09";
+
+  var purple = "#953eff";
+
   createCanvas(1425, 475);
 
   //noStroke();
 
-  background(255, 111, 0);
+  background(orange);
 
   //Rectangles bottom
-  fill(150, 62, 800);
+  fill(purple);
   rect(500, 250, 490, 200);
   //rectangle top
-  fill(150, 62, 800);
+  fill(purple);
   rect(500, 20, 490, 200);
 
   //noStroke();
-  fill(255, 111, 09);
+  fill(orange);
   rect(200, 140, 390, 200);
 
-  fill(255, 111, 09);
+  fill(orange);
   rect(900, 140, 390, 200);
 
   noStroke();
@@ -88,7 +92,4 @@ function setup() {
 
   fill(255);
   circle(845, 120, 20);
-
-  // stroke(2);
-  //line(10, 20, 200, 20);
 }
