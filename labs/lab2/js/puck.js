@@ -5,9 +5,9 @@ function setup() {
 }
 function draw() {
   if (mouseX < 200) {
-    fill(232, 2, 2);
-  } else {
     fill(0, 14, 204);
+  } else {
+    fill(232, 2, 2);
   }
   ellipse(mouseX, mouseY, 20, 20);
 }
