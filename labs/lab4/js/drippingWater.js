@@ -1,7 +1,7 @@
 //controls y postions of cirlces
-var yPos = ["10"];
+var yPos = [];
 
-//variable forx speed
+//variable for x speed
 var circ_speed = 0;
 
 function setup() {
@@ -13,7 +13,7 @@ function draw() {
 
   //controls start of and conditions of circles
   for (let i = 0; i < yPos.length; i++) {
-    ellipse(200, yPos[i], 10, 10);
+    circle(200, yPos[i], 10, 10);
 
     //moves circles down 5 pixels each cycle
     yPos[i] = yPos[i] + 5;

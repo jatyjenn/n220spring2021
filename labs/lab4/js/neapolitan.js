@@ -9,6 +9,6 @@ function setup() {
     //fill variable i with items inside the array
     fill(colors[i]);
     //controls  x and y postion, spacing, and size of displayed item
-    rect(55 * i, 120, 55, 75);
+    rect(110, 70 * i, 75, 75);
   }
 }
