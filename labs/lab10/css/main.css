@@ -1,0 +1,10 @@
+.canvas {
+  height: 200px;
+  width: 300px;
+  background-color: darkkhaki;
+}
+.cont {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
