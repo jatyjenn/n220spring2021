@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Changer</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <body>
+    <div id="one" data-color="red" onclick="cont(this)"></div>
+    <div id="two" data-color="green" onclick="cont(this)"></div>
+    <div id="three" data-color="blue" onclick="cont(this)"></div>
+    <script>
+      function cont(e) {
+        var ele = document.getElementById(e.id);
+        ele.style.backgroundColor = ele.dataset.color;
+      }
+    </script>
+  </body>
+</html>
+
+
