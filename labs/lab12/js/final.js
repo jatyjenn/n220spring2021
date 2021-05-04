@@ -46,14 +46,15 @@ function o (x,y) {
 // this  create an x
 function x (x,y){
   let p = sz * 0.10;
-  line((sz * x) + p,
-       (sz * y) + p,
-       (sz * x + sz) - p,
-       (sz * y + sz) - p);
   line((sz * x + sz) - p,
        (sz * y) + p,
        (sz * x) + p,
        (sz * y + sz) - p);
+  line((sz * x) + p,
+       (sz * y) + p,
+       (sz * x + sz) - p,
+       (sz * y + sz) - p);
+  
 }
 
 //this determines where the user clicked and places that user's symbol "x" or "o" in that spot
