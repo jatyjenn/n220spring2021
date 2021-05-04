@@ -56,7 +56,10 @@ function x(x,y){
        (sz * y + w) - p);
 }
 
-//this determines where the user clicked and places that user's symbol "x" or "o" in that spot
+//this determines where the user clicked and places that user's symbol "x" or "o" in that spot. 
+
+//I learned about the floor() at https://genekogan.com/code/p5js-transformations/ this basically calulate the position of something( in this case a mouse click) and rounds it down to the nearest whole number
+
 function mouseClicked() {
   let x = floor(mouseX / sz);
   let y = floor(mouseY / sz);
